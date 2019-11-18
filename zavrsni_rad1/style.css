@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+main{
+    margin:auto;
+    width: 90%;
+    height: 90%;   
+} 
+main p,h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+     
+header {
+    background-size: 24%;
+    background-repeat: no-repeat;
+    border: solid plum 1px;
+    margin: 2%;
+    margin-left: 5%;
+    background-image: url('slike/dahlia.bleda.jpg');
+}
+
+#arrows{
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: #33021f;
+    text-align: right;
+}
+
+header h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 92px;
+    padding-left: 18%;
+    color: #a7326c;
+    
+}
+header nav ul li{
+    margin-right: 8%;
+    text-align: right;
+    display: inline-block;
+    text-transform: uppercase;
+}
+   
+ header nav ul{
+    padding-left: 40%;
+
+
+ }
+ header nav ul li a{
+    color: #312f2f;
+     font-weight:bold; 
+     opacity: 0,7%; 
+     text-decoration: none;   
+ }
+
+
+header  a:hover{
+    color:#a7326c;  
+}
+
+section{
+    width: 65%;
+    float: right;
+    margin-top:2%;
+       
+}
+section p{
+    font-size: 20px;
+    text-align: justify;
+}
+section h2{
+    color: #a7326c;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-family: cursive;
+    font-size: 30px;
+    letter-spacing: 12px;
+}
+section h2 span{
+    color: #33021f;
+    font-size: 30px;
+}
+
+#slika1{
+    float: right;
+    width: 38%;
+    margin-top: 8px;
+    padding: 1%;
+}
+#slika2{
+    float: left;
+    width: 45%;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+#slika3{
+    width: 47%;
+    float: right;
+    padding: 2%;
+    margin-top: 4%;
+    
+}
+#slika4{
+    float: left;
+    width: 48%;
+    margin-top: 16px;
+    padding: 1%;
+}
+aside{
+    width: 25%;
+    padding: 3%;
+    float: left;
+    margin-top: 3%;
+    background-image: linear-gradient();
+    border-right: 6px solid #f072ab;
+    background-image: linear-gradient(45deg, #00000066, transparent);
+    border-bottom-right-radius: 6%;
+    border-top-right-radius: 6%;
+}
+section div{
+    height: 362px;
+}
+
+aside nav ul li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 3%;
+    padding:2%;
+    text-transform: uppercase;  
+} 
+aside  h2{
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 28px;
+    color: #a7326c;
+    font-family: Times 'Times New Roman', Times, serif;
+    
+} 
+ aside nav ul li{
+     margin-top: 5%;
+     color:  #a7326c;
+
+ } 
+ aside nav ul li a{
+    text-decoration: none;
+    color: #a7326c;
+    text-transform: uppercase;  
+
+ }
+ #lotolink{
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 22%;
+    color: #673AB7;
+    text-decoration: none;
+    font-style: italic;
+ }
+ 
+ #article1 p{
+     border-bottom: #f072ab solid 2px;
+     border-top-left-radius: 10px; 
+     padding-top: 15px;
+     margin-top: 3%;
+ }
+ aside img{
+    
+     width: 105%;
+     border-radius: 25%;
+     margin-top: 15%;
+ }
+
+ aside img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  
+  }
+  aside a:hover{
+    color: rgb(32, 85, 43);
+    cursor: cell;
+}
+  footer{
+      clear: both;
+  }
+  #Recommending {
+    text-decoration: none;
+    color: #a7326c;
+    font-size: 26px;
+    text-align: center;
+  }
+  footer{
+    background-image: linear-gradient(45deg, #b6b6b6, transparent);
+    height: 50px;
+    border-top: solid 2px #f072ab;
+  }
+  
+  footer article{
+
+    display: inline-block;
+    float: right;
+  }
+  .foot{
+    width: 35px;
+    height: 35px;
+    margin-right: 36px;
+    margin-top: 4%;
+}
+footer p{
+    font-size: 18px;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-style: oblique;
+    color: grey;
+
+
+}
+    #loto {
+
+    font-size: 35px;
+    color: #a7326c;
+    text-align: left;
+    clear: both;
+    margin-bottom: 25px;
+    font-style: italic;
+   
+}
+
+
+    
+
+

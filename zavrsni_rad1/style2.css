@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+main{
+    margin:auto;
+    width: 90%;
+    height: 90%;      
+} 
+main p, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.picture {
+    float: left;
+    width: 313px;
+    margin-right: 50px;
+    height: 218px;
+    margin-right: 28px;
+    margin-left: 183px;
+}
+ 
+header {
+    border: solid #3271a7;
+    margin: 2%;
+    margin-left: 5%;
+    background-image: url(slike_strana2\mqp463.jpeg); 
+    background-size: 24%;
+    background-repeat: no-repeat;
+    
+}
+
+header h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 108px;
+    padding-left: 18%;
+    color: #3271a7;
+    transition: 2s;  
+    
+}
+header h1 span{
+    color: #cd2a8b;
+    
+}
+section{
+    width: 65%;
+    float: right;
+    margin-top:5%;
+       
+}
+section h2 span{
+    color: #cd2a8b;
+    font-size: 30px;
+}
+
+section p{
+    font-size: 20px;
+    text-align: justify;
+}
+section h2{
+    color: #3271a7;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-family: cursive;
+    font-size: 30px;
+    letter-spacing: 12px;
+}
+#slika1{
+    float: right;
+    width: 38%;
+    margin-top: 26px;
+    padding: 1%;
+}
+#slika2{
+    float: left;
+    width: 45%;
+    padding: 1%;
+    margin-top: 5%;
+}
+section article{
+   margin-bottom: 3%;
+   clear: both;
+}
+
+aside{
+    width: 25%;
+    padding: 3%;
+    float: left;
+    margin-top: 8%;
+    border: linear-gradient(45deg, #2161aa66, transparent);
+    background-image: linear-gradient(5deg, #cd2a8b57, #f6f5f500);
+    box-shadow: 2px;
+}
+section div{
+    height: 211px;
+}
+
+
+
+aside nav li { 
+    list-style: none;
+    text-align: center;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+ 
+ aside nav ul li a{
+    text-decoration: none;
+    color: #3271a7;
+    transition: 5s;
+
+ }
+  
+ aside img{
+    
+     width: 105%;
+     border-radius: 15%;
+     margin-top: 15%;
+ }
+
+  aside a:hover{
+    color: rgb(32, 85, 43);
+    cursor: crosshair;
+  }
+
+  footer{
+    background-image: linear-gradient(45deg, #2161aa66, transparent);
+    height: 50px;
+    border-top: solid 2px gray;
+    clear: both;
+  }
+  footer p{
+    color: #3271a7;
+    font-weight: bold;
+
+  }
+
+  
+
+  
+ 
+
+
+    
+
+
